@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Exe1 {
+public class ParOuImpar {
 
     public static void main (String[] args){
 

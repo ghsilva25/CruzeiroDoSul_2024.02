@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Exe2 {
+public class MaiorNúmero {
 
     public static void main(String[] args) {
 

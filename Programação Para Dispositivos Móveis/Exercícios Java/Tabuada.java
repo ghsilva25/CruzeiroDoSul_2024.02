@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class TabuadaUsuario {
+public class Tabuada {
     public static void main(String[] args) {
         // Criar um objeto Scanner para ler a entrada do usuário
         Scanner scanner = new Scanner(System.in);

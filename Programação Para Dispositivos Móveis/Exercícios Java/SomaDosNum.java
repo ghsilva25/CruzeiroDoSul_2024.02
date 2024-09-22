@@ -9,6 +9,6 @@ public class SomaDosNum {
         // Soma dos números de a até b
         int soma = (n * (a + b)) / 2;
 
-        System.out.println("A soma dos números de " + a + " a " + b + " é: " + soma);
+        System.out.println("A soma dos números de " + a + " a " + b + " é: " + soma + ". ");
     }
 }
