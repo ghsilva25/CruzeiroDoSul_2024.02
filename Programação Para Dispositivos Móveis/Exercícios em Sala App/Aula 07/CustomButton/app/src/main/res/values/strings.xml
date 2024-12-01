@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CustomButton</string>
+
+    <string name="botao_envio">Enviar</string>
+
+    <string name="boas_vindas">seja bem vindo</string>
+
+    <string name="formulario">Preencher Formulário</string>
+
+
+</resources>

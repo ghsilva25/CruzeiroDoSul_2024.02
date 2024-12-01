@@ -1,0 +1,146 @@
+<html>
+<head>
+<title>Desafio.kt</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cf8e6d;}
+.s1 { color: #bcbec4;}
+.s2 { color: #bcbec4;}
+.s3 { color: #6aab73;}
+.s4 { color: #2aacb8;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+Desafio.kt</font>
+</center></td></tr></table>
+<pre><span class="s0">fun </span><span class="s1">main</span><span class="s2">() {</span>
+
+    <span class="s0">var </span><span class="s1">nomes </span><span class="s2">= </span><span class="s1">arrayOf</span><span class="s2">(</span>
+            <span class="s3">&quot;Alexa Martins Almeida&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Pedro Silva Pereira&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Lucas Oliveira Souza&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Maria Santos Rodrigues&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Isabella Ferreira Lima&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;João Pereira Ribeiro&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Gabriel Alves Cardoso&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Laura Gonçalves Santos&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;André Fernandes Mendes&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Beatriz Costa Almeida&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Matheus Rodrigues Souza&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Ana Martins Silva&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Leonardo Ribeiro Oliveira&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Clara Almeida Pereira&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Enzo Cardoso Martins&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Luiza Silva Rodrigues&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Rafael Alves Pereira&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Gustavo Fernandes Santos&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Carolina Gonçalves Ferreira&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;João Pereira Ribeiro&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Lucas Fernandes Lima&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Manuela Almeida Costa&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Miguel Lima Alves&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Sofia Martins Santos&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Davi Rodrigues Pereira&quot;</span>
+    <span class="s2">)</span>
+    <span class="s0">val </span><span class="s1">sexos </span><span class="s2">= </span><span class="s1">arrayOf</span><span class="s2">(</span>
+            <span class="s3">&quot;Feminino&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Masculino&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Masculino&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Feminino&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Feminino&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Masculino&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Masculino&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Feminino&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Masculino&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Feminino&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Masculino&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Feminino&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Masculino&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Feminino&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Masculino&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Feminino&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Masculino&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Masculino&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Feminino&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Masculino&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Masculino&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Feminino&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Masculino&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Feminino&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Masculino&quot;</span>
+    <span class="s2">)</span>
+    <span class="s0">var </span><span class="s1">idades </span><span class="s2">=</span>
+            <span class="s1">arrayOf</span><span class="s2">(</span><span class="s4">19</span><span class="s2">, </span><span class="s4">65</span><span class="s2">, </span><span class="s4">34</span><span class="s2">, </span><span class="s4">72</span><span class="s2">, </span><span class="s4">18</span><span class="s2">, </span><span class="s4">28</span><span class="s2">, </span><span class="s4">59</span><span class="s2">, </span><span class="s4">44</span><span class="s2">, </span><span class="s4">27</span><span class="s2">, </span><span class="s4">76</span><span class="s2">, </span><span class="s4">18</span><span class="s2">, </span><span class="s4">18</span><span class="s2">, </span><span class="s4">61</span><span class="s2">, </span><span class="s4">22</span><span class="s2">, </span><span class="s4">56</span><span class="s2">, </span><span class="s4">32</span><span class="s2">, </span><span class="s4">73</span><span class="s2">, </span><span class="s4">18</span><span class="s2">, </span><span class="s4">16</span><span class="s2">, </span><span class="s4">67</span><span class="s2">, </span><span class="s4">41</span><span class="s2">, </span><span class="s4">70</span><span class="s2">, </span><span class="s4">30</span><span class="s2">, </span><span class="s4">57</span><span class="s2">, </span><span class="s4">24</span><span class="s2">)</span>
+    <span class="s0">var </span><span class="s1">salarios </span><span class="s2">= </span><span class="s1">arrayOf</span><span class="s2">(</span>
+            <span class="s4">2500</span><span class="s2">,</span>
+            <span class="s4">3200</span><span class="s2">,</span>
+            <span class="s4">1800</span><span class="s2">,</span>
+            <span class="s4">4200</span><span class="s2">,</span>
+            <span class="s4">2900</span><span class="s2">,</span>
+            <span class="s4">5500</span><span class="s2">,</span>
+            <span class="s4">3800</span><span class="s2">,</span>
+            <span class="s4">4700</span><span class="s2">,</span>
+            <span class="s4">2100</span><span class="s2">,</span>
+            <span class="s4">3600</span><span class="s2">,</span>
+            <span class="s4">2800</span><span class="s2">,</span>
+            <span class="s4">5000</span><span class="s2">,</span>
+            <span class="s4">3400</span><span class="s2">,</span>
+            <span class="s4">4400</span><span class="s2">,</span>
+            <span class="s4">2600</span><span class="s2">,</span>
+            <span class="s4">4000</span><span class="s2">,</span>
+            <span class="s4">3100</span><span class="s2">,</span>
+            <span class="s4">2300</span><span class="s2">,</span>
+            <span class="s4">4700</span><span class="s2">,</span>
+            <span class="s4">3300</span><span class="s2">,</span>
+            <span class="s4">2700</span><span class="s2">,</span>
+            <span class="s4">4900</span><span class="s2">,</span>
+            <span class="s4">3500</span><span class="s2">,</span>
+            <span class="s4">2000</span><span class="s2">,</span>
+            <span class="s4">4100</span>
+    <span class="s2">)</span>
+    <span class="s0">var </span><span class="s1">cargos </span><span class="s2">= </span><span class="s1">arrayOf</span><span class="s2">(</span>
+            <span class="s3">&quot;Gerente de Vendas&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Diretor&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Desenvolvedor de Software&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Assistente Administrativo&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Engenheiro de Projetos&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Designer Gráfico&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Contador Financeiro&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Especialista em Recursos Humanos&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Consultor de Negócios&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Enfermeiro(a) Clínico(a)&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Analista de Dados&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Coordenador de Logística&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Gerente de Operações&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Assistente de Atendimento ao Cliente&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Médico(a) Generalista&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Professor(a) de Inglês&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Analista de Finanças&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Arquiteto(a) de Interiores&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Analista de Suporte Técnico&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Jornalista Freelancer&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Diretor&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Técnico de Laboratório&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Consultor de Segurança Cibernética&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Engenheiro de Qualidade&quot;</span><span class="s2">,</span>
+            <span class="s3">&quot;Diretor&quot;</span>
+    <span class="s2">)</span>
+
+    <span class="s0">var </span><span class="s1">MulherMaisVelha </span><span class="s2">= </span><span class="s1">idades</span><span class="s2">.</span><span class="s1">get</span><span class="s2">(</span><span class="s4">0</span><span class="s2">)</span>
+    <span class="s0">var </span><span class="s1">NomeMulher </span><span class="s2">= </span><span class="s3">&quot;&quot;</span>
+
+    <span class="s0">for</span><span class="s2">(</span><span class="s1">i </span><span class="s0">in </span><span class="s4">1</span><span class="s2">..</span><span class="s4">25</span><span class="s2">-</span><span class="s4">1</span><span class="s2">){</span>
+        <span class="s0">if</span><span class="s2">(</span><span class="s1">sexos</span><span class="s2">.</span><span class="s1">get</span><span class="s2">(</span><span class="s1">i</span><span class="s2">).</span><span class="s1">equals</span><span class="s2">(</span><span class="s3">&quot;Feminino&quot;</span><span class="s2">) &amp;&amp; </span><span class="s1">idades</span><span class="s2">.</span><span class="s1">get</span><span class="s2">(</span><span class="s1">i</span><span class="s2">) &lt; </span><span class="s1">MulherMaisVelha</span><span class="s2">){</span>
+            <span class="s1">MulherMaisVelha </span><span class="s2">= </span><span class="s1">idades</span><span class="s2">.</span><span class="s1">get</span><span class="s2">(</span><span class="s1">i</span><span class="s2">)</span>
+        <span class="s2">}</span>
+
+
+    <span class="s2">}</span>
+    
+
+<span class="s2">}</span></pre>
+</body>
+</html>
